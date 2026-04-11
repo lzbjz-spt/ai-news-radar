@@ -1,20 +1,110 @@
 {
-  "generated_at": "2026-04-09T17:38:22.710793Z",
+  "generated_at": "2026-04-11T06:38:22.501843Z",
   "timezone": "Asia/Shanghai",
   "root_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
   "history_url": "https://waytoagi.feishu.cn/wiki/FjiOwWp2giA7hRk6jjfcPioCnAc",
   "window_days": 7,
-  "latest_date": "2026-04-09",
-  "count_today": 1,
+  "latest_date": "2026-04-10",
+  "count_today": 7,
   "updates_today": [
     {
-      "date": "2026-04-09",
-      "title": "Anthropic 今天发了一个新产品，叫 Claude Managed Agents 。一句话概括：你告诉 Anthropic 你想要什么样的 AI 智能体，它帮你在云端跑起来， 基础设施全包，按用量收费 。Sentry 用它几周就上线了自动修 bug 的全流程，Rakuten 一周部署一个专项智能体。然而之前这些事需要一整个工程师团队干几个月。",
+      "date": "2026-04-10",
+      "title": "面对 Claude 额度受限的困扰，本文分享了4 套 Claude Code 与 NotebookLM 的高效集成工作流，可以绕过额度限制，把重量级的文档分析卸载到 Google 那边去做。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "这份Hermes Agent实用指南，集齐了日常使用中最能提升效率与体验的硬核技巧。不管你是新手还是进阶玩家，或许都能从中解锁一些高效好用的隐藏玩法。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "款Hermes Agent彻底打破常规，自带学习循环，可以在执行任务中自主沉淀、优化专属技能，还可以自动搜索安装能力，越用越强。本篇文章带来Windows系统完整部署教程，从环境配置、模型接入到飞书集成一步到位，而且汇总了高频坑点的解决方案与常用指令。快来跟着一步步上手操作试试！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "本文通过上手实践操作Hermes Agent ，给出了安装Hermes 后建议先尝试的十项功能，内容非常丰富，纯手敲，经过源码review和实验验证。 并通过尝试，也总结了Hermes 的八大亮点，都在文中了，欢迎阅读交流～",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "最近两周，从「同事.skill」开始，各种诸如乔布斯、老板、前任甚至赛博算命的蒸馏人格系列铺天盖地。但剥开表象会发现一个现象 ：这波热潮里的绝大多数项目，仅仅发挥了 Skill 10% 的能力——本质上只是把一段角色 Prompt 存成了文件。本文不是教你做「同事.skill」那种角色扮演玩具。 如果你想把 Skill 做成 持续运转的系统 ——像搭乐高一样拼装 Agent 的能力边界，这篇文章正是为你准备的。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "子木做了一个 seo-audit-skill — 给它一个 URL，它就能跑出针对这个页面，一份结构化的报告 ，并告诉你在SEO方面哪里有问题、为什么有问题、怎么改。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "OiiOii 是全球首个动画创作Agent。用户通过自然语言对话，就能快速生成一张精美的插图、制作几秒的惊艳短视频，或者创作一段完整的剧情动画短片。这篇使用手册将带你快速熟悉平台的核心功能，开启你的 AI 创作之旅！",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     }
   ],
-  "count_7d": 31,
+  "count_7d": 37,
   "updates_7d": [
+    {
+      "date": "2026-04-10",
+      "title": "面对 Claude 额度受限的困扰，本文分享了4 套 Claude Code 与 NotebookLM 的高效集成工作流，可以绕过额度限制，把重量级的文档分析卸载到 Google 那边去做。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "这份Hermes Agent实用指南，集齐了日常使用中最能提升效率与体验的硬核技巧。不管你是新手还是进阶玩家，或许都能从中解锁一些高效好用的隐藏玩法。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "款Hermes Agent彻底打破常规，自带学习循环，可以在执行任务中自主沉淀、优化专属技能，还可以自动搜索安装能力，越用越强。本篇文章带来Windows系统完整部署教程，从环境配置、模型接入到飞书集成一步到位，而且汇总了高频坑点的解决方案与常用指令。快来跟着一步步上手操作试试！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "本文通过上手实践操作Hermes Agent ，给出了安装Hermes 后建议先尝试的十项功能，内容非常丰富，纯手敲，经过源码review和实验验证。 并通过尝试，也总结了Hermes 的八大亮点，都在文中了，欢迎阅读交流～",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "最近两周，从「同事.skill」开始，各种诸如乔布斯、老板、前任甚至赛博算命的蒸馏人格系列铺天盖地。但剥开表象会发现一个现象 ：这波热潮里的绝大多数项目，仅仅发挥了 Skill 10% 的能力——本质上只是把一段角色 Prompt 存成了文件。本文不是教你做「同事.skill」那种角色扮演玩具。 如果你想把 Skill 做成 持续运转的系统 ——像搭乐高一样拼装 Agent 的能力边界，这篇文章正是为你准备的。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "子木做了一个 seo-audit-skill — 给它一个 URL，它就能跑出针对这个页面，一份结构化的报告 ，并告诉你在SEO方面哪里有问题、为什么有问题、怎么改。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "OiiOii 是全球首个动画创作Agent。用户通过自然语言对话，就能快速生成一张精美的插图、制作几秒的惊艳短视频，或者创作一段完整的剧情动画短片。这篇使用手册将带你快速熟悉平台的核心功能，开启你的 AI 创作之旅！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-04-09",
+      "title": "这是一个毛孩子家庭的 24 小时 AI 全天候跟拍系统。从凌晨到深夜，每小时自动生成一幅专属波普风插画，构建可覆盖毛孩子一生的数字档案网站。作者不懂代码，全靠龙虾vibe coding，来分享一个从零搭建的思路。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-04-09",
+      "title": "在这篇博客里，我们会学习 Mixture of Experts（MoE）架构，理解什么是 experts，router 如何选择它们，为什么 MoE 能让大模型更快、更便宜，以及为什么它驱动了如今很多最强大的大语言模型（LLMs）。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-04-09",
+      "title": "即梦悄悄放出了一个新工具叫 Octo。目前还在内测阶段，小歪写这篇文章带大家一起拆解下。Octo 不是一个普通的AI生图或者生视频的工具 ，在一个画布上， 不仅可以生图、生视频，还可以并行的实时搜索，来给你的AI创作过程提供灵感或者资料佐证等 跟AI聊天，就能完成从想创意、定风格、设计角色、拆分镜到生成视频、剪辑导出的全部流程！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-04-09",
+      "title": "作者每天看到优质的项目/工具、模型发布、精彩的行业观点，都会顺手丢到群里，跟大家分享互动。但是有些问题之前在群里都有讨论过，也发过对应的项目的使用介绍。但只要聊天记录一过，还是会有人反复再问。毕竟群聊是流式的，信息刷过去就没了，根本没沉淀。这篇文章，作者就带大家一起拆解下他是如何将群聊优质信息整理成知识库的。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-04-09",
+      "title": "Deep Agents deploy基于 Deep Agents 构建 —— 这是一款开源、不依赖特定模型的智能体管理框架。这类管理框架与记忆存储紧密关联，是实现开源智能体框架生产级落地的最快捷方式。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
     {
       "date": "2026-04-09",
       "title": "Anthropic 今天发了一个新产品，叫 Claude Managed Agents 。一句话概括：你告诉 Anthropic 你想要什么样的 AI 智能体，它帮你在云端跑起来， 基础设施全包，按用量收费 。Sentry 用它几周就上线了自动修 bug 的全流程，Rakuten 一周部署一个专项智能体。然而之前这些事需要一整个工程师团队干几个月。",
@@ -138,36 +228,6 @@
     {
       "date": "2026-04-05",
       "title": "Dazhuang Skill Creator 基于 Claude Code 官方 skill-creator，但并不只是改几句提示词。作者把自己对提示词架构、Skill 架构，以及 CLI 工具运行机制的理解重新整合进去，对整体工作流、结构分层、bundled resources 和可维护性做了一次完整重构，整个 skill.md 非常轻量量，基本上只有规则和工作流程，优化起来像以前写提示词一样简单。快来安装试试！",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-04-04",
-      "title": "本文分析了小龙虾打电话feishu-meeting-call技能架构与源码实现，拆解出核心公式（Token管理+API调用+业务逻辑+降级策略+智能触发）。基于此方法论，提出十大飞书高频场景的实战方案，展示如何利用新版skill-creator将普通飞书应用升级为个性化智能助理，实现从“使用技能”到“创造技能”的能力跃迁。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-04-04",
-      "title": "大多数人学习了AI相关知识后，却完全不知道该打造什么作品。或许掌握了理论知识，熟悉各类工具，可一旦坐下来动手创作，就只能对着空白屏幕发呆。这份清单就是为了解决这个问题。25个项目按难度分级整理，每个项目都能在一个周末内完成，每个项目都能解决实际问题，每个项目所学到的技能，还能为后续项目打下基础、层层叠加。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-04-04",
-      "title": "在用Claude Code开发时误改配置、乱删文件、漏跑测试的痛点，靠Hooks就能一键解决。这篇文章推荐了8个Claude Code Hooks，对日常使用AI写码的人来说实用性极强，快上手试试！",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-04-04",
-      "title": "Simon Willison 是 Django 的联合创始人——那个同时托着 Instagram、Pinterest、Spotify 的 Web 框架。他创造了\"prompt injection\"这个词，普及了\"AI slop\"和\"agentic engineering\"的概念，还有超过 100 个开源项目，其中 Datasette 已经成为全球调查记者的常用工具。在这期 Lenny's Podcast 对谈里，他带来的不是预测，而是一个在最前线工作的工程师，对这个行业正在发生的事情最诚实的描述。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-04-04",
-      "title": "RAG 特别吃内存，不优化就跑不动、跑太贵、跑太慢。通过这篇文章，来让我们看看Perplexity、Azure、HubSpot等众多公司如何使用二进制量化技术，使检索增强生成（RAG）的内存效率提高32倍（附代码解释）！",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
-    },
-    {
-      "date": "2026-04-04",
-      "title": "Jenny Wen ，Anthropic 的设计负责人，Cowork 的设计主导者。她最近上了一期播客，完整展示了自己怎么用 Cowork 干活，还讲了 Cowork 的真实诞生过程，以及产品界面经历了多少次推翻重来。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     }
   ],
