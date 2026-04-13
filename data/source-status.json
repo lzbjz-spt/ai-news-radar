@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-13T13:50:27.835194Z",
+  "generated_at": "2026-04-13T15:19:03.642570Z",
   "sites": [
     {
       "site_id": "techurls",
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 532,
+      "duration_ms": 530,
       "error": null
     },
     {
@@ -14,15 +14,15 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 768,
-      "duration_ms": 283,
+      "duration_ms": 407,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 473,
-      "duration_ms": 13382,
+      "item_count": 486,
+      "duration_ms": 45514,
       "error": null
     },
     {
@@ -30,7 +30,7 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 0,
-      "duration_ms": 1372,
+      "duration_ms": 2227,
       "error": null
     },
     {
@@ -38,15 +38,15 @@
       "site_name": "TopHub",
       "ok": true,
       "item_count": 3039,
-      "duration_ms": 1210,
+      "duration_ms": 2212,
       "error": null
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "ok": true,
-      "item_count": 59,
-      "duration_ms": 426,
+      "item_count": 66,
+      "duration_ms": 624,
       "error": null
     },
     {
@@ -54,7 +54,7 @@
       "site_name": "AI HubToday",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 247,
+      "duration_ms": 248,
       "error": null
     },
     {
@@ -62,7 +62,7 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 2010,
+      "duration_ms": 1228,
       "error": null
     },
     {
@@ -70,7 +70,7 @@
       "site_name": "AI今日热榜",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 35,
+      "duration_ms": 33,
       "error": "403 Client Error: Forbidden for url: https://aihot.today/"
     },
     {
@@ -78,7 +78,7 @@
       "site_name": "NewsNow",
       "ok": true,
       "item_count": 146,
-      "duration_ms": 303,
+      "duration_ms": 522,
       "error": null
     }
   ],
@@ -89,9 +89,9 @@
   "zero_item_sites": [
     "bestblogs"
   ],
-  "fetched_raw_items": 4911,
-  "items_before_topic_filter": 6686,
-  "items_in_24h": 702,
+  "fetched_raw_items": 4931,
+  "items_before_topic_filter": 6543,
+  "items_in_24h": 710,
   "rss_opml": {
     "enabled": false,
     "path": null,
