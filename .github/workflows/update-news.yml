@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-ai-news-snapshot
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -40,9 +44,9 @@ jobs:
       - name: Update data
         run: |
           if [ -f feeds/follow.opml ]; then
-            python scripts/update_news.py --output-dir data --window-hours 24 --rss-opml feeds/follow.opml
+            python scripts/update_news.py --output-dir data --window-hours 24 --archive-days 14 --archive-max-items 60000 --rss-opml feeds/follow.opml
           else
-            python scripts/update_news.py --output-dir data --window-hours 24
+            python scripts/update_news.py --output-dir data --window-hours 24 --archive-days 14 --archive-max-items 60000
           fi
 
       - name: Commit and push changes
