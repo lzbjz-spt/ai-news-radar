@@ -1709,6 +1709,32 @@ def load_archive(path: Path) -> dict[str, dict[str, Any]]:
     return out
 
 
+def prune_archive(
+    archive: dict[str, dict[str, Any]],
+    now: datetime,
+    archive_days: int,
+    max_items: int,
+) -> dict[str, dict[str, Any]]:
+    """Keep recent archive records while enforcing a hard size-growth guardrail."""
+    keep_after = now - timedelta(days=max(1, archive_days))
+    recent: list[tuple[datetime, str, dict[str, Any]]] = []
+
+    for item_id, record in archive.items():
+        ts = (
+            parse_iso(record.get("last_seen_at"))
+            or parse_iso(record.get("published_at"))
+            or parse_iso(record.get("first_seen_at"))
+            or now
+        )
+        if ts >= keep_after:
+            recent.append((ts, item_id, record))
+
+    recent.sort(key=lambda item: item[0], reverse=True)
+    if max_items > 0:
+        recent = recent[:max_items]
+    return {item_id: record for _, item_id, record in recent}
+
+
 def event_time(record: dict[str, Any]) -> datetime | None:
     # RSS sources must rely on the source's publish time only.
     # first_seen_at is fetch time and would falsely mark historical items as "24h".
@@ -2027,7 +2053,13 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Aggregate AI news updates from multiple sources")
     parser.add_argument("--output-dir", default="data", help="Directory for output JSON files")
     parser.add_argument("--window-hours", type=int, default=24, help="24h window size")
-    parser.add_argument("--archive-days", type=int, default=45, help="Keep archive for N days")
+    parser.add_argument("--archive-days", type=int, default=14, help="Keep archive for N days")
+    parser.add_argument(
+        "--archive-max-items",
+        type=int,
+        default=60000,
+        help="Hard cap for archive records (0 disables the cap)",
+    )
     parser.add_argument("--translate-max-new", type=int, default=80, help="Max new EN->ZH title translations per run")
     parser.add_argument("--rss-opml", default="", help="Optional OPML file path to include RSS sources")
     parser.add_argument("--rss-max-feeds", type=int, default=0, help="Optional max OPML RSS feeds to fetch (0 means all)")
@@ -2112,19 +2144,14 @@ def main() -> int:
                     existing["published_at"] = iso(raw.published_at)
             existing["last_seen_at"] = iso(now)
 
-    # Prune old archive
-    keep_after = now - timedelta(days=args.archive_days)
-    pruned: dict[str, dict[str, Any]] = {}
-    for item_id, record in archive.items():
-        ts = (
-            parse_iso(record.get("last_seen_at"))
-            or parse_iso(record.get("published_at"))
-            or parse_iso(record.get("first_seen_at"))
-            or now
-        )
-        if ts >= keep_after:
-            pruned[item_id] = record
-    archive = pruned
+    # Bound archive growth so the generated JSON stays well below GitHub's
+    # 100 MiB per-file limit even if source volume increases unexpectedly.
+    archive = prune_archive(
+        archive,
+        now,
+        archive_days=max(1, int(args.archive_days)),
+        max_items=max(0, int(args.archive_max_items)),
+    )
 
     # 24h view
     window_start = now - timedelta(hours=args.window_hours)

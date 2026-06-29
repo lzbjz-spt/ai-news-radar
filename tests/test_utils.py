@@ -3,7 +3,14 @@ from datetime import datetime, timezone
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
-from scripts.update_news import make_item_id, normalize_url, parse_date_any, parse_opml_subscriptions, parse_relative_time_zh
+from scripts.update_news import (
+    make_item_id,
+    normalize_url,
+    parse_date_any,
+    parse_opml_subscriptions,
+    parse_relative_time_zh,
+    prune_archive,
+)
 
 
 class UtilsTests(unittest.TestCase):
@@ -40,6 +47,18 @@ class UtilsTests(unittest.TestCase):
         self.assertEqual(len(feeds), 2)
         self.assertEqual(feeds[0]["title"], "A")
         self.assertEqual(feeds[1]["title"], "B")
+
+    def test_prune_archive_applies_age_and_item_limits(self):
+        now = datetime(2026, 6, 29, 12, 0, tzinfo=timezone.utc)
+        archive = {
+            "newest": {"last_seen_at": "2026-06-29T11:00:00Z"},
+            "recent": {"last_seen_at": "2026-06-28T11:00:00Z"},
+            "old": {"last_seen_at": "2026-05-01T11:00:00Z"},
+        }
+
+        pruned = prune_archive(archive, now, archive_days=14, max_items=1)
+
+        self.assertEqual(list(pruned), ["newest"])
 
 
 if __name__ == "__main__":
