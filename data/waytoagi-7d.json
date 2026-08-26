@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-26T16:00:41.361785Z",
+  "generated_at": "2026-08-26T18:17:04.847325Z",
   "timezone": "Asia/Shanghai",
   "root_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
   "history_url": "https://waytoagi.feishu.cn/wiki/FjiOwWp2giA7hRk6jjfcPioCnAc",
   "window_days": 7,
   "latest_date": "2026-08-26",
-  "count_today": 6,
+  "count_today": 7,
   "updates_today": [
     {
       "date": "2026-08-26",
@@ -36,9 +36,14 @@
       "date": "2026-08-26",
       "title": "Anthropic 官方发布的AI Native 开发手册，适合研发团队、技术负责人和正在把Claude/Codex接进工作流的人看。他们把软件从一个想法变成线上产品的完整过程：规划、设计、构建、测试、部署、运维 详细拆解了下。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "2026 年Agent自进化开始从论文和框架走向工程现场，但很多团队还在把评测、记忆、Skill更新拆开做，结果就是Agent 用了半年还像新手。作者这篇文章基于对 Anthropic 递归自改进报告、斯坦福 CS329A 课程、EvoAgentX 等开源框架的深度研读，结合业界多个团队已验证的优秀实践，提炼出一个完整的、可落地的、经过验证的工程闭环。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     }
   ],
-  "count_7d": 37,
+  "count_7d": 38,
   "updates_7d": [
     {
       "date": "2026-08-26",
@@ -68,6 +73,11 @@
     {
       "date": "2026-08-26",
       "title": "Anthropic 官方发布的AI Native 开发手册，适合研发团队、技术负责人和正在把Claude/Codex接进工作流的人看。他们把软件从一个想法变成线上产品的完整过程：规划、设计、构建、测试、部署、运维 详细拆解了下。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "2026 年Agent自进化开始从论文和框架走向工程现场，但很多团队还在把评测、记忆、Skill更新拆开做，结果就是Agent 用了半年还像新手。作者这篇文章基于对 Anthropic 递归自改进报告、斯坦福 CS329A 课程、EvoAgentX 等开源框架的深度研读，结合业界多个团队已验证的优秀实践，提炼出一个完整的、可落地的、经过验证的工程闭环。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
